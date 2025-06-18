@@ -1,0 +1,13 @@
+name: second workflow
+on:
+ push:
+jobs:
+  second:
+    runs-on: ubuntu-latest
+    steps:
+    - name: runs the first job
+      runs: echo "run's the first job"
+
+    - name: run the second job
+      runs: echo "print run the second job"
+     
