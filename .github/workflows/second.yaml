@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: runs the first job
-      runs: echo "run's the first job"
+      run: echo "run's the first job"
 
     - name: run the second job
-      runs: echo "print run the second job"
+      run: echo "print run the second job"
      
